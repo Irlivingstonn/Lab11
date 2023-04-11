@@ -1,0 +1,15 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+19:07:31.217846 IP ip-10-0-0-25.45020 > bg-in-f101.1e100.net.http: Flags [P.], seq 4152764013:4152764087, ack 1004401826, win 491, options [nop,nop,TS val 2426266129 ecr 2567828989], length 74: HTTP: GET / HTTP/1.1
+E..~..@.@.	z
+.....se...P..&m;.......*......
+........GET / HTTP/1.1
+Host: google.com
+User-Agent: curl/7.81.0
+Accept: */*
+
+
+^C
+1 packet captured
+1 packet received by filter
+0 packets dropped by kernel

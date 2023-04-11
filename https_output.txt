@@ -1,0 +1,11 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+19:13:47.631856 IP ip-10-0-0-25.46692 > bg-in-f103.1e100.net.https: Flags [S], seq 484249211, win 62727, options [mss 8961,sackOK,TS val 2477673737 ecr 0,nop,wscale 7], length 0
+19:13:47.633900 IP bg-in-f103.1e100.net.https > ip-10-0-0-25.46692: Flags [S.], seq 1039944086, ack 484249212, win 65535, options [mss 1412,sackOK,TS val 1001318795 ecr 2477673737,nop,wscale 8], length 0
+19:13:47.756895 IP ip-10-0-0-25.46692 > bg-in-f103.1e100.net.https: Flags [F.], seq 845, ack 20452, win 443, options [nop,nop,TS val 2477673862 ecr 1001318916], length 0
+19:13:47.758247 IP bg-in-f103.1e100.net.https > ip-10-0-0-25.46692: Flags [F.], seq 20452, ack 845, win 261, options [nop,nop,TS val 1001318919 ecr 2477673862], length 0
+19:13:48.974281 IP zg-1220g-184.stretchoid.com.36878 > ip-10-0-0-25.5223: Flags [S], seq 584549333, win 65535, length 0
+^C
+5 packets captured
+5 packets received by filter
+0 packets dropped by kernel
